@@ -36,7 +36,7 @@ const Projects = () => {
 {
   data.map(d=>(
     <div className='project'>
-    <img className='pro__img' src={d.image} alt="project-image"/>
+   <img className='pro__img' src={d.image} alt="img"/>
     <h4>{d.name}</h4>
     <div className='btn'>
     <a href={d.github}className='btn__source'>Source Code<AiFillGithub/></a>
