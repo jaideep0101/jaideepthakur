@@ -6,7 +6,7 @@ position:static;
 .home__container{
     display:flex;
     flex-direction: row;
-padding:2rem 5rem;
+padding:5rem;
    
 }
 .hero__text{

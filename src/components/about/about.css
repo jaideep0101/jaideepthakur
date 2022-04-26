@@ -1,4 +1,6 @@
 .about__container{
+    background-position: top;
+    top:0;
     background-image:url("../../assets/wave.svg");
     background-repeat: no-repeat;
     text-align: center;
