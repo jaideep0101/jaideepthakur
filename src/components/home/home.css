@@ -42,13 +42,13 @@ align-items: center;
 }
 @keyframes animate {
     0%{
-        content:"Jaideep." ;
+        content:"Jaideep" ;
     }
     50%{
-        content:"a Developer." ;
+        content:"a Developer" ;
     }
     100%{
-        content:"a Programmer." ;
+        content:"a Programmer" ;
     }
 }
 .socials{
@@ -124,13 +124,14 @@ display: flex;
 }
 }
 @media screen and (max-width:600px) {
+   
 .hero__text{
-    width:90%;
+    width:95%;
     padding:2rem 0;
     line-height:2rem;
 }
 .hero__img,span,.home__text,.hero__text h1{
-    width: 100%;
+    width:100%;
 }
 .hero__text h1{
     justify-content: flex-start;
