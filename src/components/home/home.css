@@ -1,0 +1,140 @@
+.container{
+    padding:6rem 2rem;
+    background-color: var(--color-black);
+position:static;
+}
+.home__container{
+    display:flex;
+    flex-direction: row;
+padding:2rem 5rem;
+   
+}
+.hero__text{
+width: 60%;
+padding-top:1rem;
+}
+.hero__text h1{
+    font-size: 50px;
+    margin:2rem 0;
+   
+}
+.hero__text h1,.home__text{
+    color:var(--color-bg-varient);
+}
+h1>span{
+    color: rgb(234,216,195);
+}
+.home__text {
+    width: 95%;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+ h3{
+    color:var(--color-bg-varient);
+    margin: 2rem 0 1rem;
+    letter-spacing: 1px;
+    animation:slide 12s steps(3) infinite;
+}
+.name::before{
+    content: "";
+    animation:animate infinite 10s ease;
+}
+@keyframes animate {
+    0%{
+        content:"Jaideep." ;
+    }
+    50%{
+        content:"a Developer." ;
+    }
+    100%{
+        content:"a Programmer." ;
+    }
+}
+.socials{
+margin-top:1rem;
+font-size:30px;
+display: flex; 
+gap:1rem;
+cursor: pointer;
+justify-content:flex-start;
+}
+.socials a{
+    color:var(--color-imp)
+}
+.socials >a:hover{
+    color:var(--color-bg-varient);
+}
+
+  @keyframes spring { 
+    0% { transform: scale(1) translateY(0); }
+    10% { transform: scale(1.2, 0.6); }
+    30% { transform: scale(0.8, 1.1) ; }
+    50% { transform: scale(1); }
+    100% { transform: translateY(0); }
+  }
+
+.hero__img{
+    width: 50%;  
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+
+   
+}
+.hero__background{
+    background-color: var(--color-imp);
+border-radius: 3rem;
+display: flex;
+}
+.hero__img img{
+    width: 100%;
+    position: relative;
+ text-align: center;
+ left:3rem;
+
+}
+
+@media screen and (max-width:1024px) {
+.container{
+    padding:6rem 0;
+}
+.home__container{
+    display: flex;
+    padding:0;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+}
+.home__container,.socials{
+    display: flex;
+    align-items: center;
+}
+.hero__text{
+    width: 80%;
+    margin-bottom:1rem ;
+}
+.hero__img{
+    width:60%;
+}
+.socials{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+}
+@media screen and (max-width:600px) {
+.hero__text{
+    width:90%;
+    padding:2rem 0;
+    line-height:2rem;
+}
+.hero__img,span,.home__text,.hero__text h1{
+    width: 100%;
+}
+.hero__text h1{
+    justify-content: flex-start;
+    font-size: 40px;
+    margin:2rem 0;
+}
+}

@@ -1,0 +1,142 @@
+.contact__container{
+   background-color:var(--color-white);
+   padding:3rem 8rem 1rem ;
+   text-align: center;
+}
+h1{
+    color:var(--color-black);
+}
+.contacts,.social__details,.social__info{
+    display: flex;
+}
+.contacts{
+    padding:2rem ;
+    width: 100%;
+}
+.social__details{
+  width: 50%;  
+  flex-direction: column;
+}
+.social__info{
+    align-items: center;
+    gap:1rem;
+    margin-top:1rem;
+   
+}
+.social__info a{
+    font-size: 40px;
+    color:#3A3845;
+}
+.social__info a:hover{
+    color:var(--color-orange);
+}
+input,textarea{
+    width: 100%;
+    margin-top:0.5rem;
+    background-color: var(--color-imp);
+    padding:0.5rem;
+    border:1px solid #3A3845;
+}
+input::placeholder,textarea::placeholder{
+    color:#78938A;
+}
+.btn-submit{
+padding:0.5rem 1rem;
+background-color:var(--color-orange);
+color:var(--color-white);
+border:1px solid var(--color-orange);
+display: flex;
+gap:.2rem;
+align-items: center;
+justify-content: center;
+}
+.btn-submit:hover{
+    border:1px solid var(--color-orange);
+    background: transparent;
+    color:var(--color-orange);
+}
+.success__message{
+    padding:.5rem 1rem;
+    position:absolute;
+    right:4rem;
+    background-color:#B4E197;
+    width: max-content;
+    color:#001E6C;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: css 0s 3s forwards;
+}
+@keyframes css {
+    to {
+        width: 0;
+        height: 0;
+     overflow: hidden;
+     visibility: hidden;
+        
+    }
+}
+
+.form__cotnainer{
+    width: 50%;
+    background-color: var(--color-imp);
+    padding:1rem;
+    border-radius: 10px;
+}
+.form__cotnainer h3{
+    margin: 0;
+    color:#3A3845;
+}
+.footer{
+    margin-top: 2rem;
+
+  }
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+}
+
+@media screen and (max-width:1024px) {
+    .contact__container{
+        text-align: center;
+        width:100%;
+        padding: 5rem 1rem 2rem;
+    }
+    .contacts{
+        padding:4rem 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .social__details{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+    
+    }
+    .social__info h5{
+        display: none;
+    }
+    .form__cotnainer{
+        margin-top:2rem;
+    }
+}
+@media screen and (max-width:600px){
+    .contact__container{
+        text-align: center;
+        width:100%;
+        padding:5rem 1rem 2rem;
+    } 
+    .social__details,.form__cotnainer{
+        width: 100%;
+    }
+    .footer{
+        margin: 0;
+    }
+}

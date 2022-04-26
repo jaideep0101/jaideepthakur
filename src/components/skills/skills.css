@@ -1,0 +1,78 @@
+.skills__container{
+    background-color: var(--color-white);
+   text-align: center;
+   padding:6rem 3rem 3rem;
+}
+.skills__container h1{
+    color:var(--color-black);
+}
+.skills{
+    margin: 3rem 2rem;
+    display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  justify-content: center;
+}
+.skill{
+    padding:1rem;
+    font-size: 50px;
+}
+.icon{
+transition: rotate 5s ease;
+}
+.icon:hover{
+  transform:rotate(20deg) ;
+}
+.skill p{
+    font-size:10px;
+    font-weight: 500;
+    color:#3A3845;
+}
+.react{
+   animation:rotation 6s infinite linear;
+   color:#00d8ff;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+  }
+  .node{
+   color:#68A063;
+}
+.mongodb{
+    color:#68A063;
+}
+.git{
+    color:#c9510c;
+}
+.javascript{
+    color:#f0db4f;
+    background-color:var(--color-black);
+}
+.bootstrap{
+   color:#080135;
+}
+.html{
+    color:#e34c26;
+}
+.heroku{
+    color:#6762a6;
+}
+
+@media  screen and (max-width:1024px) {
+ .skills__container{
+     padding:6rem 4rem;
+     width: 100%;
+ }
+ .skills{
+     margin-top:4rem ;
+ }
+}
+@media screen and (max-width:600px) {
+    .skills__container{
+        padding:4rem 1rem 2rem;
+        width: 100%;
+    }
+ 
+}
+

@@ -1,0 +1,118 @@
+nav{
+    padding: 1rem 4rem ;
+    width: 100%;
+     background-color:var(--color-black);
+    display:flex;
+    position:fixed;
+    gap:4rem;
+    left:50%;
+    transform: translate(-50%);
+    justify-content:flex-end;
+    z-index: 2;
+}
+
+.menu__container{
+justify-content: center;
+gap:5rem;
+
+}
+.menu__container,.menu__container > a{
+    display: flex;
+   align-items: center;
+}
+.menu__container > a,.toggleIcon{
+    color:var(--color-white);
+}
+.menu__container > a {
+    font-weight: 400;
+}
+a.active,.menu__container>a:hover{
+    color:var(--color-imp);
+}
+
+.cv{
+    margin-left:8rem;
+    padding:.8rem;
+    border-radius: 0.3rem .8rem ;
+    border: none;
+    background-color: var(--color-imp);
+}
+.cv a{
+    color:var(--color-black);
+}
+.toggleIcon{
+ font-size: 27px;
+}
+::-webkit-scrollbar,.toggleMenu__container{
+    display: none;
+}
+.cv:hover{
+    background-color: var(--color-white);
+    transition:var(--transition)
+}
+
+@media screen and (max-width:1024px) {
+
+nav,.smallMenu__container,.toggleMenu__container{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+nav{
+transition: var(--transition);
+padding:3rem;
+width: 100%;
+    }
+.logo
+{
+        position: absolute;
+        top:2rem;
+        left: 4rem;
+        color:var(--color-imp);
+        font-size: 30px;
+        font-family: 'Ms Madi', cursive;
+}
+.logo,.smallMenu__container > a{
+            color:var(--color-white);
+        }
+
+    .toggleIcon{
+         position:absolute;
+         top:2rem;
+         right: 2rem;
+    }
+    .menu__container{
+       display: none;
+    }
+    .toggleMenu__container{
+        width: 100%;
+    }
+    .smallMenu__container{
+text-align: center;
+height: 100vh;
+    }
+    .smallMenu__container > a{
+        margin:.5rem 0;
+        font-size: 25px;
+    }
+.cv{
+    margin: 1rem 0;
+    padding:1rem;
+    font-size: 15px;
+}
+.smallMenu__container > a:hover{
+    color:var(--color-imp)
+}
+  
+}
+
+@media screen and (max-width:600px) {  
+.logo{
+      left:2rem;
+      font-size: 25px;
+  }
+  .smallMenu__container > a{
+    font-size: 20px;
+  }
+}

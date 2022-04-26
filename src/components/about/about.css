@@ -1,0 +1,87 @@
+.about__container{
+    background-image:url("../../assets/wave.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    width:100%;
+    background-color:var(--color-imp);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:6rem 5rem;
+  
+}
+.image__container{
+width: 50%;
+z-index:1;
+}
+.image__container img{
+    width: 100%;
+    border-radius: 10px;
+    opacity:.7;
+
+}
+.main__container{
+    width:100%;
+    display: flex;
+    margin-top: 4rem;
+}
+.text{
+    width:50%;
+    text-align: center;
+    margin:1rem 0 0 1rem;
+   
+}
+.text h1{
+    color:var(--color-black);
+
+}
+.text p{
+    margin-top:3rem;
+ color:#3A3845;
+ line-height:2;
+ letter-spacing: 1px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .about__container{
+        padding:5rem 0;
+     
+    }
+    .image__container{
+        width: 70%;
+        }
+    .text{
+        margin:0;
+    }
+   
+}
+
+@media screen and (max-width:900px)
+ {
+     
+  .main__container{
+       flex-direction:column ;
+       align-items: center;
+       width: 90%;
+    }
+
+    .text{
+        width:100%;
+        margin-top:1rem;
+        text-align: center; 
+    }
+    .text p{
+        margin-top:1rem;  
+    }
+   
+  
+}
+
+@media screen and (max-width:600px){
+    .image__container
+    {
+        width:100%;
+    }
+    
+}
