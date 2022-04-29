@@ -31,7 +31,7 @@ live:"//react-web-jaideep0101.netlify.app/",
 const Projects = () => {
   return (
     <section id="project" className='project__container'>
-       <h1>Projects</h1>
+       <h2>Projects</h2>
        <div className='projects'>
 {
   data.map(d=>(

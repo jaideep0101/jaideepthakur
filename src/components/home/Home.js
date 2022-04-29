@@ -1,13 +1,12 @@
 import React from 'react';
 import "./home.css";
-import hero from "../../assets/Hero.png";
+import Hero from "../../assets/Hero.png";
 import {AiOutlineMail} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 import {BsTwitter} from "react-icons/bs";
 const Home = () => {
   return (
-    <section id="home" className='container'>
-    <div className='home__container'>
+    <section id="home" className='home__container'>
        <div className='hero__text'>
          <h1>Hey,</h1>
          <h1>I'm <span className='name'></span></h1>
@@ -22,12 +21,10 @@ const Home = () => {
        </div>
        <div className='hero__img'>
        <div className='hero__background'>
-<img src={hero} alt="hero__img"/>
+<img src={Hero} alt="hero__img"/>
 </div>
 </div>
-       </div>
-
-    </section>
+</section>
   )
 }
 

@@ -1,5 +1,5 @@
-import React from 'react'
-import "./skills.css"
+import React from 'react';
+import "./skills.css";
 import {FaNode} from "react-icons/fa";
 import {FaReact} from "react-icons/fa";
 import {SiMongodb} from "react-icons/si";
@@ -9,6 +9,7 @@ import {SiJavascript} from "react-icons/si";
 import {FaBootstrap} from "react-icons/fa";
 import {AiFillHtml5} from "react-icons/ai";
 import {SiHeroku} from "react-icons/si";
+import Skill from "../../assets/working.png";
 
 const skills = [
   {skill:"React",
@@ -35,8 +36,9 @@ const skills = [
 const Skills = () => {
   return (
     <section id="skills" className='skills__container'>
-    <h1>My Stack Tech</h1>
     <div className='skills'>
+    <h2>My Stack Tech</h2>
+    <div className='skills_icons'>
     {
      skills.map(obj => (
       <div className='skill'>
@@ -44,6 +46,10 @@ const Skills = () => {
         <p>{obj.skill}</p>
         </div>
       ))}
+      </div>
+</div>
+<div className='skill__img'>
+  <img src={Skill} alt="skill-img"/>
 </div>
     </section>
   )

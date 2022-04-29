@@ -1,12 +1,16 @@
 .contact__container{
    background-color:var(--color-white);
-   padding:3rem 8rem 1rem ;
+   padding:7rem 6rem 1rem ;
    text-align: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
 }
 h1{
     color:var(--color-black);
 }
-.contacts,.social__details,.social__info{
+.contacts,.social__info{
     display: flex;
 }
 .contacts{
@@ -15,13 +19,16 @@ h1{
 }
 .social__details{
   width: 50%;  
-  flex-direction: column;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns:repeat(2,1fr);
+  padding:3rem;
 }
 .social__info{
-    align-items: center;
-    gap:1rem;
-    margin-top:1rem;
-   
+  width: max-content;
+  align-items:center;
+gap:.5rem;
 }
 .social__info a{
     font-size: 40px;
@@ -30,18 +37,27 @@ h1{
 .social__info a:hover{
     color:var(--color-orange);
 }
+.form__cotnainer{
+    width: 50%;
+    background-color: var(--color-imp);
+    padding:.7rem;
+}
+.form__cotnainer h3{
+    margin: 0;
+    color:#3A3845;
+}
 input,textarea{
     width: 100%;
-    margin-top:0.5rem;
+    padding:.5rem;
+    margin:.3rem 0;
     background-color: var(--color-imp);
-    padding:0.5rem;
     border:1px solid #3A3845;
 }
 input::placeholder,textarea::placeholder{
     color:#78938A;
 }
 .btn-submit{
-padding:0.5rem 1rem;
+padding:.5rem;
 background-color:var(--color-orange);
 color:var(--color-white);
 border:1px solid var(--color-orange);
@@ -78,35 +94,28 @@ justify-content: center;
     }
 }
 
-.form__cotnainer{
-    width: 50%;
-    background-color: var(--color-imp);
-    padding:1rem;
-    border-radius: 10px;
-}
-.form__cotnainer h3{
-    margin: 0;
-    color:#3A3845;
-}
 .footer{
-    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
 
   }
 .footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight:500;
+ font-weight:500;
 }
 
 @media screen and (max-width:1024px) {
     .contact__container{
         text-align: center;
         width:100%;
-        padding: 5rem 1rem 2rem;
+        padding:5rem 6rem;
     }
     .contacts{
-        padding:4rem 0;
+        padding:2rem 0;
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -118,6 +127,8 @@ justify-content: center;
         display: flex;
         flex-direction:row;
         justify-content: space-evenly;
+        padding:0;
+        margin:.5rem 0;
     
     }
     .social__info h5{
@@ -125,6 +136,7 @@ justify-content: center;
     }
     .form__cotnainer{
         margin-top:2rem;
+        width: 100%;
     }
 }
 @media screen and (max-width:600px){

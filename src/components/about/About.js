@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/my image.jpg"
+import Image from "../../assets/me.JPG"
 
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
 <img src={Image} alt="img"></img>
     </div>
     <article className='text'>
-    <h1>About Me</h1>
+    <h2>About Me</h2>
 <p>Hello, My name is Jaideep Singh Thakur. A Programmer based in Indore, Hold a Master's degreee in Computer Application. I am exemplary at C and C++. Highly dedicated towards all coding related challenges.</p>
     </article>
 </div>
