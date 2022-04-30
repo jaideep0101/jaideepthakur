@@ -15,7 +15,7 @@ position:static;
 };
 
 .hero__text{
-width: 60%;
+width: 40%;
 padding-top:1rem;
 }
 .hero__text h1{
@@ -80,7 +80,7 @@ justify-content:flex-start;
   }
 
 .hero__img{
-    width: 40%;  
+    width: 60%;  
     display: flex;
     justify-content:center;
     align-items: center;  
