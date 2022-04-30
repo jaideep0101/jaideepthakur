@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <section id="home" className='home__container'>
        <div className='hero__text'>
+       <div className='box'>
          <h1>Hey,</h1>
          <h1>I'm <span className='name'></span></h1>
          <div className='home__text'>
@@ -17,6 +18,7 @@ const Home = () => {
          <a className='icons' href="https://www.linkedin.com/in/jaideep-singh-thakur-3329b320b/"><FaLinkedinIn /></a>
          <a className='icons' href="https://twitter.com/Jaideepthakur01"><BsTwitter /></a>
          <a className='icons' href="mailto:jaideepst0101@gmail.com"><AiOutlineMail /></a>
+         </div>
          </div>
        </div>
        <div className='hero__img'>
