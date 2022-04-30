@@ -15,6 +15,7 @@ position:static;
 };
 
 .hero__text{
+    padding-top:3rem;
 width:50%;
 }
 .hero__text h1{
