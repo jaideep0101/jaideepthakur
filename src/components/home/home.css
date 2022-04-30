@@ -3,9 +3,7 @@
 position:static;
     display:flex;
     flex-direction: row;
-    padding:7rem 10rem 0; 
-    height:100vh;
-    width:100%;
+    padding:6rem 8rem 3rem; 
 }
 .text p{
     margin-top:3rem;
@@ -16,7 +14,7 @@ position:static;
 };
 
 .hero__text{
-width:60%;
+width:50%;
 }
 .box h1{
     font-size: 50px;
@@ -27,7 +25,7 @@ width:60%;
     line-height:2rem;
 }
 .box{
-    margin-top: 6rem;
+    margin-top:4rem;
    
 }
 .hero__text h1,.home__text{
@@ -87,7 +85,7 @@ justify-content:flex-start;
   }
 
 .hero__img{
-    width:40%;  
+    width:80%;  
     display: flex;
     justify-content:center;
     align-items: center;  
@@ -97,6 +95,7 @@ justify-content:flex-start;
 border-radius: 3rem;
 display: flex;
 justify-content: center;
+align-items: center;
 }
 .hero__img img{
     width:100%;
@@ -107,10 +106,8 @@ justify-content: center;
 @media screen and (max-width:1024px) {
 .home__container{
     padding:6rem 0;
-    display: flex;
    flex-direction: column;
    text-align: center;
-   overflow: hidden;
 }
 .home__container,.socials{
     display: flex;
@@ -121,7 +118,7 @@ justify-content: center;
     margin-bottom:1rem ;
 }
 .hero__img{
-    width:60%;
+    width:100%;
 }
 .socials{
     display: flex;

@@ -9,9 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding:7rem 8rem 4rem ;
-    height:100vh;
-  
+    padding:7rem 8rem 4rem ; 
 }
 .image__container{
 width: 50%;

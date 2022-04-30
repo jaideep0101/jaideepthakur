@@ -3,7 +3,6 @@
    text-align: center;
    display: flex;
    padding:7rem 6rem 4rem ;
-   height:100vh;
 }
 .skills h1{
     color:var(--color-black);
