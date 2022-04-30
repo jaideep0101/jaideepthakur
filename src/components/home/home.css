@@ -3,8 +3,9 @@
 position:static;
     display:flex;
     flex-direction: row; 
-    padding:8rem 8rem 4rem;
+    padding:8rem ;
     height:100vh;
+    width:100%;
 }
 .text p{
     margin-top:3rem;
@@ -16,7 +17,7 @@ position:static;
 
 .hero__text{
     padding-top:3rem;
-width:60%;
+width:40%;
 }
 .hero__text h1{
     font-size: 50px;
@@ -30,7 +31,7 @@ h1>span{
     color: rgb(234,216,195);
 }
 .home__text {
-    width: 95%;
+    width: 90%;
 display: flex;
 justify-content:center;
 align-items: center;
@@ -80,7 +81,7 @@ justify-content:flex-start;
   }
 
 .hero__img{
-    width:40%;  
+    width:60%;  
     display: flex;
     justify-content:center;
     align-items: center;  
@@ -92,7 +93,7 @@ display: flex;
 justify-content: center;
 }
 .hero__img img{
-    width:90%;
+    width:100%;
     position: relative;
  text-align: center;
 }
