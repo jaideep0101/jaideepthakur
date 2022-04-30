@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section id="home" className='home__container'>
        <div className='hero__text'>
-       <div className='box'>
+       <div className='text__box'>
          <h1>Hey,</h1>
          <h1>I'm <span className='name'></span></h1>
          <div className='home__text'>
