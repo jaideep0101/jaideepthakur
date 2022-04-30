@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding:7rem 8rem 4rem ;
+    height:100vh;
   
 }
 .image__container{
@@ -29,8 +30,8 @@ z-index:1;
 }
 .text{
     width:50%;
-    text-align: center;
-    margin:1rem 0 0 1rem;
+    text-align:center;
+    margin:1rem 0 0 2rem;
    
 }
 .text h2{
@@ -39,8 +40,10 @@ z-index:1;
 }
 .text p{
     margin-top:3rem;
+
  color:#3A3845;
  line-height:2;
+ text-align: left;
  letter-spacing: 1px;
 }
 
@@ -55,7 +58,9 @@ z-index:1;
         }
     .text{
         margin:0;
+        text-align: center;
     }
+
    
 }
 
@@ -70,7 +75,7 @@ z-index:1;
 
     .text{
         width:100%;
-        margin-top:1rem;
+        margin:1rem 1rem;
         text-align: center; 
     }
     .text p{

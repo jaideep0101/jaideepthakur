@@ -6,6 +6,7 @@
    flex-direction: column;
    justify-content: center;
    position: relative;
+   height:100vh;
 }
 h1{
     color:var(--color-black);
@@ -14,6 +15,7 @@ h1{
     display: flex;
 }
 .contacts{
+    margin-top:2rem;
     padding:2rem ;
     width: 100%;
 }
