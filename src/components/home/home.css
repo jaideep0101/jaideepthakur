@@ -87,7 +87,7 @@ justify-content:flex-start;
   }
 
 .hero__img{
-    width:40%;  
+    width:100%;  
     display: flex;
     justify-content:center;
     align-items: center;  
@@ -97,7 +97,6 @@ justify-content:flex-start;
 border-radius: 3rem;
 display: flex;
 justify-content: center;
-width:100%;
 }
 .hero__img img{
     width:100%;
