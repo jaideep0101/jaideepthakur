@@ -3,16 +3,17 @@
 position:static;
     display:flex;
     flex-direction: row; 
-    padding:8rem.text p{
-        margin-top:3rem;
-        
-     color:#3A3845;
-     line-height:2;
-     text-align: left;
-     letter-spacing: 1px;
-    };
+    padding:8rem;
     height:100vh;
 }
+.text p{
+    margin-top:3rem;
+ color:#3A3845;
+ line-height:2;
+ text-align: left;
+ letter-spacing: 1px;
+};
+
 .hero__text{
 width: 60%;
 padding-top:1rem;
