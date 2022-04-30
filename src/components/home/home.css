@@ -16,7 +16,7 @@ position:static;
 };
 
 .hero__text{
-width:40%;
+width:60%;
 }
 .box h1{
     font-size: 50px;
@@ -87,7 +87,7 @@ justify-content:flex-start;
   }
 
 .hero__img{
-    width:100%;  
+    width:40%;  
     display: flex;
     justify-content:center;
     align-items: center;  
