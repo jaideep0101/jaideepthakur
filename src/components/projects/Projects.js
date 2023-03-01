@@ -11,13 +11,13 @@ const data =[
   name:"YelpCamp",
   image:pro1,
   github:"//github.com/jaideep0101/yelpcamp.git",
-live:"//yelpcamp0101.herokuapp.com/",
+live:"//yelpcamp0101.up.railway.app/",
 },
 {
   name:"Catmash",
   image:pro2,
   github:"//github.com/jaideep0101/catmash.git",
-live:"//catmash0101.herokuapp.com/",
+live:"//catmash.up.railway.app/",
 },
 {
   name:"Gpt3 React Website",
