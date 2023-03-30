@@ -7,7 +7,7 @@ https://jaideepthakur.netlify.app/
 
 Screenshots
 Here are some screenshots of my portfolio website:
-<img src=""></img>
+<img src="https://linkedin-clone-e1yd-git-mas"></img>
 Screenshot 1
 Screenshot 2
 
