@@ -17,8 +17,6 @@ React
 
 Credits
 Jaideep Singh Thakur
-License
-This project is licensed under the [insert license]. See the LICENSE file for details.
 
 Contact
 If you have any questions or feedback, please feel free to contact me at jaideepst0101@gmail.com. Thank you for visiting my portfolio website!
