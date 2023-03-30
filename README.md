@@ -5,16 +5,10 @@ Demo
 Check out the live demo of my website here.
 https://jaideepthakur.netlify.app/
 
-Screenshots
-Here are some screenshots of my portfolio website:
-<img src="https://linkedin-clone-e1yd-git-mas"></img>
-Screenshot 1
-Screenshot 2
-
 Installation
 To run this project locally, follow these steps:
 
-Clone the repository: git clone insert-link-to-github-repo
+Clone the repository: git clone https://github.com/jaideep0101/jaideepthakur.git
 Install dependencies: npm install
 Start the development server: npm start
 Open your web browser and navigate to http://localhost:3000/
